@@ -1,0 +1,35 @@
+.header-top{
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header-social{
+    display: flex;
+    gap: 2rem;
+}
+
+.socials{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.socials-icon-wrapper{
+    --size: 3rem;
+    height: var(--size);
+    width: var(--size);
+    background-color: var(--first-color);
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+
+.socials-icon-wrapper svg{
+    --size: 2rem;
+    height: var(--size);
+    width: var(--size);
+    fill: #333;
+}

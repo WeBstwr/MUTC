@@ -10,6 +10,13 @@ html {
   font-size: 62.5%;
 }
 
+:root{
+    --first-color: #8E806A;
+    --second-color: #C3B091;
+    --third-color: #E4CDA7;
+    --fourth-color: #FFE6BC;
+}
+
 body {
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
