@@ -1,10 +1,23 @@
 import "./assets/globals.css";
 import Header from "./components/Header/Header";
+import Home from "./pages/Home/Home";
+import Leadership from "./pages/Leadership/Leadersgip";
+import Tracks from "./pages/Tracks/Tracks";
+import Events from "./pages/Events/Events";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="Leadership/" element={<Leadership />} />
+          <Route path="Tracks/" element={<Tracks />} />
+          <Route path="Events/" element={<Events />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

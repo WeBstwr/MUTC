@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 
 const HeaderBtm = () => {
@@ -6,16 +7,16 @@ const HeaderBtm = () => {
       <nav className="header-nav">
         <ol className="header-nav-list">
           <li className="header-nav-item">
-            <a href="">home</a>
+            <Link to="/">home</Link>
           </li>
           <li className="header-nav-item">
-            <a href="">leadership</a>
+            <Link to="/Leadership">leadership</Link>
           </li>
           <li className="header-nav-item">
-            <a href="">tracks</a>
+            <Link to="/Tracks">tracks</Link>
           </li>
           <li className="header-nav-item">
-            <a href="">events</a>
+            <Link to="/Events">events</Link>
           </li>
         </ol>
       </nav>
