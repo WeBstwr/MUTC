@@ -1,0 +1,22 @@
+.banner {
+  background-color: var(--third-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 30vh;
+}
+
+.banner h2 {
+  color: var(--pry-color);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.banner p {
+  color: var(--pry-color);
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 2rem;
+}

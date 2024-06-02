@@ -132,7 +132,7 @@ img {
   transition: all 0.5s ease;
 }
 @media screen and (max-width: 39.375em) {
-  img{
+  img {
     display: flex;
   }
 }
@@ -141,7 +141,6 @@ img {
     --size: 35rem;
   }
 }
-
 
 img:hover {
   transform: scale(1.02);
