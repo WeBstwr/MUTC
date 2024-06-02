@@ -4,9 +4,8 @@ const Events = () => {
   return (
     <section>
       <Banner
-        mainText="our leaders"
-        subText="
-Welcome to MUTC's leadership page. Meet our passionate leaders driving innovation, fostering learning, and empowering our tech community."
+        mainText="our events"
+        subText="This is our weekly schedule"
       />
     </section>
   );
