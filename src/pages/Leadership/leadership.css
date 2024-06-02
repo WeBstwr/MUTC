@@ -1,11 +1,13 @@
-.leaders.sec{
+.leaders-sec{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    row-gap: 2rem;
 }
 
 .leader{
     width: 30rem;
     background-color: var(--third-color);
+    border-radius: 20px;
 }
 
 .leader-image{
