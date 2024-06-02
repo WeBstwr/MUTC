@@ -1,5 +1,8 @@
+import Hero from "./Hero";
+import "../Home/home.css";
+
 const Home = () => {
-  return <h2>Welcome</h2>;
+  return <Hero />;
 };
 
 export default Home;

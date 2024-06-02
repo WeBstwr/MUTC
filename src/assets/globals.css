@@ -21,4 +21,5 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
+  background-color: var(--fourth-color);
 }
