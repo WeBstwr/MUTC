@@ -8,6 +8,11 @@
   background-position: center;
   justify-content: center;
 }
+/* @media screen and (max-width: 32.5em) {
+  .hero{
+    
+  }
+} */
 
 /* .background-img {
   width: 100%;
@@ -74,7 +79,7 @@ video {
   border-radius: 3rem;
 }
 
-.about-banner {
+.home-banner {
   background-color: var(--second-color);
   display: flex;
   justify-content: center;
@@ -83,8 +88,9 @@ video {
   padding: 3rem;
   /* border-radius: 10px; */
 }
-.about-banner h2 {
+.home-banner h2 {
   font-size: 3rem;
+  color: var(--pry-color);
 }
 
 .about-us {
@@ -95,30 +101,109 @@ video {
   padding: 6rem 12rem;
   align-items: center;
 }
+@media screen and (max-width: 68.125em) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
-.about-us h3{
+.about-us h3 {
   text-align: center;
 }
 
-.about-us h2{
+.about-us h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding:  2rem 0;
+  padding: 2rem 0;
 }
 
-.about-us p{
+.about-us p {
   text-align: center;
+  color: var(--pry-color);
 }
 
-img{
+img {
   --size: 50rem;
   width: var(--size);
   height: var(--size);
   border-radius: 20px;
   transition: all 0.5s ease;
 }
+@media screen and (max-width: 39.375em) {
+  img{
+    display: flex;
+  }
+}
+@media screen and (max-width: 31.25em) {
+  img {
+    --size: 35rem;
+  }
+}
 
-img:hover{
+
+img:hover {
   transform: scale(1.02);
+}
+
+.testimonials-wrapper {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 3rem auto;
+}
+@media screen and (max-width: 68.125em) {
+  .testimonials-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 33.125em) {
+  .testimonials-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--third-color);
+  padding: 1rem 2rem;
+}
+
+.feedback-alt-Color {
+  background-color: var(--second-color);
+}
+
+.feedback-title {
+  color: var(--pry-color);
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.feedback-reason {
+  color: var(--pry-color);
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.feedback-icon-wrapper {
+  --size: 5rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background-color: var(--fourth-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-icon-wrapper svg {
+  width: 3rem;
+  height: 3rem;
 }
