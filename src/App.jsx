@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Leadership from "./pages/Leadership/Leadersgip";
 import Tracks from "./pages/Tracks/Tracks";
 import Events from "./pages/Events/Events";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="Tracks/" element={<Tracks />} />
           <Route path="Events/" element={<Events />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
