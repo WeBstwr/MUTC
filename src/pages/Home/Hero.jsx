@@ -9,8 +9,9 @@ const Hero = () => {
           murang'a university tech club
         </h1>
         <p>
-          Murang'a University Tech Club is the technology club at Murang'a University, dedicated to advancing members' knowledge in
-          programming and technology
+          Murang'a University Tech Club is the technology club at Murang'a
+          University, dedicated to advancing members' knowledge in programming
+          and technology
         </p>
         <div className="hero-ctas">
           <a href="#about" className="hero-cta-btn">
@@ -21,7 +22,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-       {/* <div className="background-img">
+      {/* <div className="background-img">
         <video src={background} autoPlay loop muted />
       </div> */}
     </section>
