@@ -1,7 +1,7 @@
 import "./assets/globals.css";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
-import Leadership from "./pages/Leadership/Leadersgip";
+import Leadership from "./pages/Leadership/Leadership";
 import Tracks from "./pages/Tracks/Tracks";
 import Events from "./pages/Events/Events";
 import Footer from "./components/Footer/Footer";
