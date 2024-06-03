@@ -66,15 +66,16 @@ const Tracks = () => {
             </div>
             <div className="contact-fm-grp">
             <label htmlFor="current course">current course</label>
-            <input type="text" id="current course" className="contact-form-input" placeholder="current course" />
+            <input type="text" id="current course" className="contact-form-input" placeholder="enter current course" />
             </div>
             <div className="contact-fm-grp">
             <label htmlFor="year of study">year of study</label>
-            <input type="number" id="year of study" className="contact-form-input" placeholder="year of study" />
-            </div>
+            <input type="number" id="year of study" className="contact-form-input" placeholder="enter year of study" />
+           
             <div className="track-choice">
               <label htmlFor="track">choose your track</label>
               <select name="track" id="track" className="contact-form-input">
+              <option value="select option">--select option</option>
                 <option value="ui/ux design">ui/ux design</option>
                 <option value="web development">web development</option>
                 <option value="mobile apps development">mobile apps development</option>
@@ -83,7 +84,7 @@ const Tracks = () => {
               
               </select>
             </div>
-           
+            </div>
            
           </form>
         </div>

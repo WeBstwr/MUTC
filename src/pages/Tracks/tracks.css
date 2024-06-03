@@ -63,6 +63,15 @@
   margin: 2rem;
 }
 
+.contact-form-input{
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 2px solid var(--pry-color);
+  padding: 4px;
+}
+
+
+
 .contact h2{
   color: var(--pry-color);
   text-transform: capitalize;
@@ -73,6 +82,8 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 50rem;
+  height: 7rem;
 }
 
 .contact-fm-grp label{
@@ -84,6 +95,5 @@
 .track-choice{
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   color: var(--pry-color);
 }
