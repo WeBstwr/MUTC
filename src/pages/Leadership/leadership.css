@@ -1,71 +1,71 @@
-.leaders-sec{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    row-gap: 2rem;
+.leaders-sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-items: center;
+  row-gap: 2rem;
 }
 
-.leader{
-    width: 30rem;
-    background-color: var(--third-color);
-    border-radius: 20px;
+.leader {
+  width: 30rem;
+  background-color: var(--third-color);
+  border-radius: 20px;
 }
 
-.leader-image{
-    height: 30rem;
-    position: relative;
-    overflow: hidden;
+.leader-image {
+  height: 30rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.leader-image img{
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    border-radius: 0%;
-    transform: none;
+.leader-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0%;
+  transform: none;
 }
 
-.social-media{
-    background-color: var(--second-color);
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
-    gap: 2rem;
-    transform: translateX(100%);
-    transition: all 0.5s ease;
+.social-media {
+  background-color: var(--second-color);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  gap: 2rem;
+  transform: translateX(100%);
+  transition: all 0.5s ease;
 }
 
-.social-media svg{
-    width: 2rem;
-    height: 2rem;
-    fill: var(--first-color);
-    
+.social-media svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--first-color);
 }
 
-.leader:hover .social-media{
-    transform: none;
+.leader:hover .social-media {
+  transform: none;
 }
 
-.leader-body{
-    text-transform: uppercase;
-    margin-block: 1rem;
-    text-align: center;
-    color: var(--pry-color);
+.leader-body {
+  text-transform: uppercase;
+  margin-block: 1rem;
+  text-align: center;
+  color: var(--pry-color);
 }
 
 .leader-body-role {
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--first-color);
-    margin: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--first-color);
+  margin: 2rem;
 }
 
-.leader-body-bio{
-    text-align: center;
-    text-transform: initial;
-    letter-spacing: 2px;
+.leader-body-bio {
+  text-align: center;
+  text-transform: initial;
+  letter-spacing: 2px;
 }

@@ -57,35 +57,55 @@ const Tracks = () => {
         <div className="contact-section">
           <form className="contact-form">
             <div className="contact-fm-grp">
-            <label htmlFor="fullName">full name</label>
-            <input type="text" id="fullName" className="contact-form-input" placeholder="full name" />
+              <label htmlFor="fullName">full name</label>
+              <input
+                type="text"
+                id="fullName"
+                className="contact-form-input"
+                placeholder="full name"
+              />
             </div>
             <div className="contact-fm-grp">
-            <label htmlFor="email">email address</label>
-            <input type="email" id="email" className="contact-form-input" placeholder="enter email address" />
+              <label htmlFor="email">email address</label>
+              <input
+                type="email"
+                id="email"
+                className="contact-form-input"
+                placeholder="enter email address"
+              />
             </div>
             <div className="contact-fm-grp">
-            <label htmlFor="current course">current course</label>
-            <input type="text" id="current course" className="contact-form-input" placeholder="enter current course" />
+              <label htmlFor="current course">current course</label>
+              <input
+                type="text"
+                id="current course"
+                className="contact-form-input"
+                placeholder="enter current course"
+              />
             </div>
             <div className="contact-fm-grp">
-            <label htmlFor="year of study">year of study</label>
-            <input type="number" id="year of study" className="contact-form-input" placeholder="enter year of study" />
-           
-            <div className="track-choice">
-              <label htmlFor="track">choose your track</label>
-              <select name="track" id="track" className="contact-form-input">
-              <option value="select option">--select option</option>
-                <option value="ui/ux design">ui/ux design</option>
-                <option value="web development">web development</option>
-                <option value="mobile apps development">mobile apps development</option>
-                <option value="cloud engineering">cloud engineering</option>
-                <option value="power platform">power platform</option>
-              
-              </select>
+              <label htmlFor="year of study">year of study</label>
+              <input
+                type="number"
+                id="year of study"
+                className="contact-form-input"
+                placeholder="enter year of study"
+              />
+
+              <div className="track-choice">
+                <label htmlFor="track">choose your track</label>
+                <select name="track" id="track" className="contact-form-input">
+                  <option value="select option">--select option</option>
+                  <option value="ui/ux design">ui/ux design</option>
+                  <option value="web development">web development</option>
+                  <option value="mobile apps development">
+                    mobile apps development
+                  </option>
+                  <option value="cloud engineering">cloud engineering</option>
+                  <option value="power platform">power platform</option>
+                </select>
+              </div>
             </div>
-            </div>
-           
           </form>
         </div>
       </section>
