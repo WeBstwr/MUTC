@@ -57,7 +57,7 @@
     color: var(--pry-color);
 }
 
-.leader-body-role{
+.leader-body-role {
     text-transform: uppercase;
     text-align: center;
     color: var(--first-color);

@@ -63,13 +63,23 @@
   margin: 2rem;
 }
 
+
 .contact-form-input{
   margin-top: 1rem;
   background-color: transparent;
   border: 2px solid var(--pry-color);
   padding: 4px;
 }
-
+@media screen and (max-width: 31.875em) {
+  .contact-form-input{
+    width: 100%;
+  }
+}
+@media screen and (max-widtt: 56.25) {
+  .contact-form-input{
+    justify-content: center;
+  }
+}
 
 
 .contact h2{

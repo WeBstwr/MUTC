@@ -2,7 +2,6 @@ import Banner from "../../components/Banner/Banner";
 import Leader from "./Leader";
 import "./leadership.css";
 import leaders from "../../data/leaders"
-import John from "../../assets/john.jpg";
 const Leadership = () => {
   return (
     <>
@@ -23,7 +22,7 @@ Welcome to MUTC's leadership page. Meet our passionate leaders driving innovatio
             lnUrl={currentLeader.inUrl}
             igUrl={currentLeader.igUrl}
             fullName={currentLeader.fullName}
-            role={currentLeader.field}
+            role={currentLeader.role}
             biography={currentLeader.biography}
           />
         ))}
