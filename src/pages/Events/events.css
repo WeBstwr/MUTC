@@ -3,9 +3,11 @@
 }
 
 .events-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-  justify-items: center;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
 }
 
 .event-content {
@@ -39,6 +41,7 @@
 .event-time {
   color: var(--pry-color);
   text-transform: capitalize;
+  margin-bottom: 0.5rem;
 }
 
 .book {
